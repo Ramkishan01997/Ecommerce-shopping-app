@@ -1,0 +1,221 @@
+/* .signup{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 105, 194);
+    margin-top: 30px;
+    height: 60vh;
+    font-size: 20px;
+    font-weight: 700;
+} */
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+.contact{
+    margin: 0 auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(61, 59, 55);
+
+}
+.content{
+    max-width: 80%;
+    text-align: center;
+}
+ .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+    margin-top: 30px;
+}
+ .contactinfo{
+    display: flex;
+    width: 50%;
+    flex-direction:column;
+    margin-right:10px;
+    
+    padding: 40px;
+    
+    
+}
+ .box{
+    position: relative;
+    padding: 20px auto;
+    display: flex;
+    flex-direction:column;
+}
+.add{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* padding: 10px; */
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+
+}
+.text{
+    display: flex;
+    margin-left: 40px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+    /* padding: 10px; */
+}
+.text h3{
+    font-weight: 500;
+    color:#00bcd4;
+}
+.contactForm{
+   width: 50%;
+   display: flex;
+   border-radius: 7px;
+    padding: 40px;
+    background-color: #fff;
+
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.inputbox input,textarea{
+    width: 100%;
+    padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+border: none;
+outline: none;
+border-bottom: 2px solid #333;
+}
+.inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color:#666
+}
+.contactForm .inputbox input:focus ~span,
+.contactForm .inputbox input:valid ~span,
+.contactForm .inputbox textarea:focus ~span,
+.contactForm .inputbox textarea:valid ~span{
+    color: #e91e63;
+    font-size: 12px;
+    transform:translateY(-20px);
+}
+.contactForm .inputbox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width:991px){
+    .contact{
+        padding: 50px;
+
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactinfo{
+        margin-bottom: 40px;
+    }
+    .container .contactinfo{
+        width: 100%;
+    }
+    .contactForm{
+        width: 100%;
+    }
+}
+@media (max-width:361px){
+    .content h2{
+        font-size: 36px;
+        font-weight: 500;
+        color: white;
+        margin: 0 auto;
+    }
+    .contact{
+        padding: 10px;
+
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactinfo{
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+    .container .contactinfo{
+        width: 100%;
+    }
+    .contactForm{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .inputbox input,textarea{
+        margin: 0 auto;
+        align-items: center;
+        padding: 5px;
+        
+    }
+    .contactForm h2{
+        font-size: 20px;
+        margin: 0 auto;
+        align-items: center;
+        color: #333;
+    }
+    .inputbox span{
+        font-size: 10px;
+    }
+    .contactinfo{
+        display: flex;
+        width: 100%;
+        flex-direction:column;
+       justify-content: center;
+        align-items: center;
+       padding: 5px;
+        margin: 5px;
+        
+    }
+}
