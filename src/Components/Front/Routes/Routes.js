@@ -3,7 +3,7 @@ import Products from '../Products/Products'
 
 import Cart from '../Cart/Cart'
 import {Route,Switch} from 'react-router-dom'
-import ContactUs from '../ContactUs/ContactUs'
+import ContactUs from '../ContactUs/ContactUs'//
 const Routes = ({productItems,cartItems,handleAddProduct,handleRemoveProduct,clearCart}) => {
     return (
         <div>
