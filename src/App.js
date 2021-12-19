@@ -40,7 +40,7 @@ const clearCart=()=>{
   const productItems=[
     {
         id:"1",
-        name:"Boat Headphone",
+        name:"Boat Headphone Mini",
         price:1299,
         image:"./pics/boat.jpeg" },
     {
