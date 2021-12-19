@@ -16,6 +16,7 @@ const handleAddProduct=(productItem)=>{
     {...productExist,quantity:productExist.quantity+1}:item))
   }
   else{
+   
     setCartItems([...cartItems,{...productItem,quantity:1}])
   }
 }
