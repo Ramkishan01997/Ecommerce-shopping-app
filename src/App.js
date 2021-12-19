@@ -6,8 +6,8 @@ import Routes from './Components/Front/Routes/Routes';
 
 import {BrowserRouter as Router} from "react-router-dom"
 function App() {
-const [cartItems, setCartItems]=useState([]);
-
+const  [cartItems, setCartItems]=useState([]);
+//added commit for reference
 //
 const handleAddProduct=(productItem)=>{
   const productExist=cartItems.find((item)=>item.id===productItem.id);
@@ -16,6 +16,7 @@ const handleAddProduct=(productItem)=>{
     {...productExist,quantity:productExist.quantity+1}:item))
   }
   else{
+   
     setCartItems([...cartItems,{...productItem,quantity:1}])
   }
 }
