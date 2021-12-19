@@ -16,6 +16,7 @@ const handleAddProduct=(productItem)=>{
     {...productExist,quantity:productExist.quantity+1}:item))
   }
   else{
+   
     setCartItems([...cartItems,{...productItem,quantity:1}])
   }
 }
@@ -39,7 +40,7 @@ const clearCart=()=>{
   const productItems=[
     {
         id:"1",
-        name:"Boat Headphone",
+        name:"Boat Headphone Mini",
         price:1299,
         image:"./pics/boat.jpeg" },
     {
