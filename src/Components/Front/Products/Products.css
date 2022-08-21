@@ -1,17 +1,17 @@
-.products{
-    margin:20px auto;
-    width:80%;
+.products {
+    margin: 20px auto;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     border-radius: 5px;
     /* background-color: orange; */
-    background-color:rgb(230, 178, 81) ;
+    background-color: rgb(230, 178, 81);
 
 }
 
-.card{
-    
+.card {
+
     width: 300px;
     height: 450px;
     border: 1 px solid black;
@@ -21,38 +21,45 @@
     margin: 40px 20px;
     background-color: white;
 }
-.card:hover{
-    box-shadow: 3px 8px   rgb(103, 104, 98);
-  
+
+.card:hover {
+    box-shadow: 3px 8px rgb(103, 104, 98);
+
 }
-.product-img{
+
+.product-img {
     width: 100%;
-    max-width:300px;
-    height:250px;
-   
+    max-width: 300px;
+    height: 250px;
+
     display: block;
     object-fit: cover;
-   
+
 }
-.product-name{
-   text-transform: uppercase;
-   margin:10px 0px
+
+.product-name {
+    text-transform: uppercase;
+    margin: 10px 0px;
+    text-align: center;
+
 }
-.product-price{
- margin: 10px 0;
- 
- padding-bottom: 20px;
- font-size: 18px;
- line-height: 30px;
+
+.product-price {
+    margin: 10px 0;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
 }
-.product-add-button{
+
+.product-add-button {
     font-weight: 700;
     font-size: 18px;
-    border:none;
+    border: none;
     border-radius: 5px;
     background-color: black;
-    color:white;
-    outline:none;
+    color: white;
+    outline: none;
     height: 40px;
     width: 100%;
     display: block;
@@ -61,7 +68,8 @@
     text-transform: uppercase;
 
 }
-.product-add-button:hover{
+
+.product-add-button:hover {
     background-color: green;
     transform: scale(1.02);
 }
