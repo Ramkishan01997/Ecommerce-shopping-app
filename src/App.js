@@ -6,6 +6,7 @@ import Routes from './Components/Front/Routes/Routes';
 import Footer from './Components/Footer/Footer';
 import { BrowserRouter as Router } from "react-router-dom"
 function App() {
+
   const [cartItems, setCartItems] = useState([]);
 
   //
@@ -18,6 +19,7 @@ function App() {
     else {
       setCartItems([...cartItems, { ...productItem, quantity: 1 }])
     }
+
   }
   // remove item
   const handleRemoveProduct = (productItem) => {
@@ -38,6 +40,7 @@ function App() {
   //const productItems=data;
   const productItems = [
     {
+
       id: "1",
       name: "Boat Headphone",
       price: 1299,
@@ -49,6 +52,7 @@ function App() {
       price: 899,
       image: "./pics/headphones.png"
     },
+
     {
       id: "3",
       name: "MIVI headphones",
